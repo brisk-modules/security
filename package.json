@@ -1,0 +1,24 @@
+{
+	"name": "brisk-security",
+	"description": "An all inclusive security module for Brisk",
+	"version": "0.0.1",
+	"author": "makesites",
+	"contributors": [
+		{ "name": "Makis Tracend", "email": "makis@makesit.es" }
+	],
+	"homepage": "http://crudr.com",
+	"keywords": ["crudr", "crud", "api", "json"],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/brisk-modules/security.git"
+	},
+	"engines": { "node": ">=0.8.x" },
+	"main": "index",
+	"bin": { },
+	"dependencies": {
+		"brisk": "0.x",
+		"cerberus": "*",
+		"helmet": "*",
+		"underscore": "1.7.0"
+	}
+}
