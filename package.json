@@ -18,6 +18,8 @@
 	"dependencies": {
 		"brisk": "0.x",
 		"cerberus": "*",
+		"connect-cors": "*",
+		"csurf": "*",
 		"helmet": "*",
 		"underscore": "1.7.0"
 	}

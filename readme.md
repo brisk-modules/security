@@ -10,6 +10,8 @@ An all inclusive security module for [Brisk](http://github.com/makesites/brisk/)
 
 * Helmet
 * Cererus
+* Connect-cors
+* CSRF
 
 
 ## Install
@@ -21,6 +23,24 @@ npm install brisk-security
 
 
 ## Usage
+
+Customize through the brisk options of your application. Everything lives under the ```security``` group:
+```
+{
+...
+	security: {
+
+		cerberus: {...},
+
+		cors: {...},
+
+		csrf: false,
+
+		helmet: {...}
+	}
+...
+}
+```
 
 ...
 
