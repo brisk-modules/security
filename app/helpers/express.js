@@ -1,4 +1,4 @@
-var Parent = require('brisk-security').getHelper('express'),
+var Parent = require("brisk").getClass("main"),
 	cerberus = require('cerberus'),
 	CORS = require('connect-cors'),
 	//CORS = brisk.getLib("connect-xcors"),
