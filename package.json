@@ -1,7 +1,7 @@
 {
 	"name": "brisk-security",
 	"description": "An all inclusive security module for Brisk",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"author": "makesites",
 	"contributors": [
 		{ "name": "Makis Tracend", "email": "makis@makesit.es" }
