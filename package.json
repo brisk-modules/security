@@ -4,23 +4,28 @@
 	"version": "0.2.0",
 	"author": "makesites",
 	"contributors": [
-		{ "name": "Makis Tracend", "email": "makis@makesit.es" }
+		{
+			"name": "Makis Tracend",
+			"email": "makis@makesit.es"
+		}
 	],
-	"homepage": "http://crudr.com",
-	"keywords": ["crudr", "crud", "api", "json"],
+	"homepage": "http://makesites.org",
+	"keywords": [ "security", "api", "cerberus", "helmet" ],
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/brisk-modules/security.git"
 	},
-	"engines": { "node": ">=0.8.x" },
+	"engines": {
+		"node": ">=0.8.x"
+	},
 	"main": "index",
-	"bin": { },
+	"bin": {},
 	"dependencies": {
-		"brisk": "0.x",
-		"cerberus": "*",
+		"brisk": ">=0.9.1",
+		"cerberus-api": "*",
 		"connect-cors": "*",
-		"csurf": "*",
-		"helmet": "*",
-		"underscore": "1.7.0"
+		"csurf": ">=1.9.0",
+		"helmet": ">=3.16.0",
+		"underscore": ">=1.7.0"
 	}
 }
